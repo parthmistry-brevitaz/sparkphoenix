@@ -13,8 +13,8 @@ libraryDependencies ++= Seq(
   "org.apache.hbase" % "hbase-common" % "1.2.0-cdh5.9.1",
   "org.apache.hbase" % "hbase-client" % "1.2.0-cdh5.9.1",
   "org.apache.hbase" % "hbase-server" % "1.2.0-cdh5.9.1",
-  "org.apache.phoenix" % "phoenix-core" % "4.9.0-HBase-1.2",
-  "org.apache.phoenix" % "phoenix-spark" % "4.9.0-HBase-1.2",
+  "org.apache.phoenix" % "phoenix-core" % "4.7.0-HBase-1.1",
+  "org.apache.phoenix" % "phoenix-spark" % "4.7.0-HBase-1.1",
   "com.databricks" % "spark-csv_2.10" % "1.5.0"
 )
 
