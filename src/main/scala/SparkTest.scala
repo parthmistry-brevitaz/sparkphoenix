@@ -18,7 +18,7 @@ object SparkTest {
 
     val df = sqlContext.read.format("com.databricks.spark.csv").option("header", "true").option("inferSchema", "true").load("hdfs:///user/spark/users.csv")
     df.save("org.apache.phoenix.spark", SaveMode.Overwrite, Map("table" -> "users",
-      "zkUrl" -> "10.103.36.96:2181:/hbase-unsecure"))
+      "zkUrl" -> "10.103.36.96:2181:/hbase"))
 
 
   }
