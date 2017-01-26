@@ -6,6 +6,7 @@ scalaVersion := "2.10.5"
 
 resolvers += "Cloudera" at "https://repository.cloudera.com/content/repositories/releases/"
 resolvers += "Spring Plugins" at "http://repo.spring.io/plugins-release/"
+resolvers += "Conjars" at "http://conjars.org/repo/"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-core_2.10" % "1.6.0" % "provided",
